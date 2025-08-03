@@ -3,4 +3,8 @@ function getComputerChoice(){
     console.log(options[Math.floor(Math.random()*3)])
 }
 
-getComputerChoice();
+function getHumanChoice(){
+    let humanChoice = prompt("enter your choice");
+    return humanChoice;
+}
+console.log(getHumanChoice());
